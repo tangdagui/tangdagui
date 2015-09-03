@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="top_background">#00aeef</color>
+    <color name="divid_line">#f4f3ee</color>
+    <color name="whites">#ffffff</color>
+    <color name="blue">#00aeef</color>
+    <color name="gray_xian">#777777</color>
+    <color name="gray">#cccccc</color>
+    <color name="top_bar_normal_bg">#00acff</color>
+</resources>

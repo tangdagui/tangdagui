@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">勘客互动</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="loading">加载中……</string>
+    <string name="tocken_invalied_tip">"连接超时，请重新登录"</string>
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="loadingTips">正在努力加载中&#8230;</string>
+</resources>

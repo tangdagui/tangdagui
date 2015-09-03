@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/dialog_shap"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="提醒"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size16" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/title"
+            android:gravity="center"
+            android:text="网络异常,请检查您的网络"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size14" />
+
+        <LinearLayout
+            android:id="@+id/optLL"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_title_height"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/firstBt"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_gray_shap"
+                android:text="取消"
+                android:textColor="@android:color/black"
+                android:visibility="visible"
+                android:textSize="@dimen/text_size14" />
+
+            <Button
+                android:id="@+id/secondBt"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue_shap"
+                android:text="确定"
+                android:textColor="@android:color/black"
+                android:visibility="visible"
+                android:textSize="@dimen/text_size14" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
